@@ -1,6 +1,6 @@
 {
-  "name": "guizang-pptx-skill",
-  "version": "1.0.0",
+  "name": "lai-pptx-skill",
+  "version": "1.0.1",
   "private": true,
   "description": "Editable PPTX adaptation of guizang-ppt-skill, with magazine, Swiss and corporate styles",
   "license": "AGPL-3.0-only",

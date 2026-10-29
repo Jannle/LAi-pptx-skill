@@ -1,9 +1,9 @@
 ---
-name: guizang-pptx-skill
+name: lai-pptx-skill
 description: 生成可编辑的 PowerPoint .pptx 文件，采用归藏电子杂志、瑞士国际主义或红灰企业汇报风格，并将逐项出现与页面切换改为 PowerPoint 原生动画。适用于文章转演示文稿、分享、产品分析和工作汇报；不用于生成单文件 HTML 网页演示。
 ---
 
-# Guizang 可编辑 PPTX
+# LAi 可编辑 PPTX
 
 这是 `guizang-ppt-skill` 的原生 PPTX 改编版。来源、许可及修改说明见 [NOTICE.md](NOTICE.md)。输出使用原生文字、形状、图表和表格，不把整页截图装进 PowerPoint。
 

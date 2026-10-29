@@ -1,4 +1,4 @@
-# Guizang PPTX Skill
+# LAi PPTX Skill
 
 把归藏 HTML 演示技能改编为 **可编辑 `.pptx` 生成技能**：三套视觉风格、12 套主题、14 类版式，以及 PowerPoint 原生进入动画和页面切换。不是网页截图转 PPT。
 
@@ -11,11 +11,13 @@
 - 首次安装依赖需要访问 npm 官方注册表。运行生成器不需要网络，也不需要私有 API、API Key 或浏览器。
 - 目标机器最好安装 `Noto Sans CJK SC`、`Noto Serif CJK SC`、`Noto Sans Mono CJK SC`。字体不随包分发、不自动下载、不嵌入 PPTX。
 
-解压后将整个 `guizang-pptx-skill` 文件夹放入你的 Agent 技能目录。例如：
+解压后将整个 `lai-pptx-skill` 文件夹放入你的 Agent 技能目录。例如：
 
-- Claude Code：`~/.claude/skills/guizang-pptx-skill/`
-- Codex：`~/.codex/skills/guizang-pptx-skill/`（设置了 `CODEX_HOME` 时使用该目录下的 `skills/`），或宿主当前支持的自定义技能位置。
+- Claude Code：`~/.claude/skills/lai-pptx-skill/`
+- Codex：`~/.codex/skills/lai-pptx-skill/`（设置了 `CODEX_HOME` 时使用该目录下的 `skills/`），或宿主当前支持的自定义技能位置。
 - 其他 Agent：使用其支持的 skill 导入/目录方式，并让其读取 `SKILL.md`。
+
+**请使用独立的 `lai-pptx-skill/` 目录；不要覆盖原版 `guizang-ppt-skill/` 或旧改编版 `guizang-pptx-skill/`。** 从 GitHub 下载源码时，先将解压出的根目录改名为 `lai-pptx-skill`，再按上述路径安装。
 
 以上是手动安装说明，本包不会自行改写你的技能目录。宿主需要具备文件读写与命令执行能力；普通纯聊天界面不能直接运行它。
 
@@ -39,7 +41,7 @@ npm test
 
 也可以对 Agent 说：
 
-> 用 guizang-pptx-skill 将这份文章做成 8 页瑞士风 PPTX，文字和图表可编辑，正文按点击逐项淡入。数据只使用我提供的附件，不添加虚构指标。
+> 用 lai-pptx-skill 将这份文章做成 8 页瑞士风 PPTX，文字和图表可编辑，正文按点击逐项淡入。数据只使用我提供的附件，不添加虚构指标。
 
 编辑内容时优先修改 JSON 后重新生成。若已在 PowerPoint 中手工修改，重新生成不会自动合并那些改动，请另存新文件。
 
@@ -82,7 +84,9 @@ npm test
 
 `examples/demo-magazine.pptx`、`demo-swiss.pptx`、`demo-huawei.pptx` 是同一组内容的 8 页软件验收示例，包含原生动画、图表和表格。数据明确标为虚构测试数据。修改 `examples/demo.json` 的 `style` 可复现相应风格。
 
-本版在 2026-10-29 以已安装的上述版本依赖完成 24 份文件、84 页的生成/结构测试，以及 14 个拒绝无效输入或保护已有文件的用例。三份随包示例已通过 LibreOffice 静态渲染和逐页排版检查。记录见 `examples/TEST-RESULTS.json`。还完成了独立目录的复用测试；**未在全新机器执行 npm 安装，也未在 Microsoft PowerPoint 中实播动画**，请按目标环境再次验收。
+v1.0.0 在 2026-10-29 以已安装的上述版本依赖完成 24 份文件、84 页的生成/结构测试，以及 14 个拒绝无效输入或保护已有文件的用例。三份随包示例已通过 LibreOffice 静态渲染和逐页排版检查。记录见 `examples/TEST-RESULTS.json`。还完成了独立目录的复用测试；**未在全新机器执行 npm 安装，也未在 Microsoft PowerPoint 中实播动画**，请按目标环境再次验收。
+
+v1.0.1 仅将本改编版重命名为 `lai-pptx-skill`，生成器、动画实现、依赖与示例内容未改动。原项目名称、原作者署名、版权声明、来源链接和 AGPL-3.0 许可完整保留。
 
 ## 已知边界
 
