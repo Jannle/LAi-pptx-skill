@@ -1,0 +1,116 @@
+{
+  "magazine": {
+    "ink": {
+      "paper": "F1EFEA",
+      "ink": "0A0A0B",
+      "accent": "0A0A0B",
+      "onAccent": "F1EFEA",
+      "muted": "64615D",
+      "line": "E8E5DE",
+      "secondary": "18181A"
+    },
+    "indigo": {
+      "paper": "F1F3F5",
+      "ink": "0A1F3D",
+      "accent": "0A1F3D",
+      "onAccent": "F1F3F5",
+      "muted": "64615D",
+      "line": "E4E8EC",
+      "secondary": "152A4A"
+    },
+    "forest": {
+      "paper": "F5F1E8",
+      "ink": "1A2E1F",
+      "accent": "1A2E1F",
+      "onAccent": "F5F1E8",
+      "muted": "64615D",
+      "line": "ECE7DA",
+      "secondary": "253D2C"
+    },
+    "kraft": {
+      "paper": "EEDFC7",
+      "ink": "2A1E13",
+      "accent": "2A1E13",
+      "onAccent": "EEDFC7",
+      "muted": "64615D",
+      "line": "E0D0B6",
+      "secondary": "3A2A1D"
+    },
+    "dune": {
+      "paper": "F0E6D2",
+      "ink": "1F1A14",
+      "accent": "1F1A14",
+      "onAccent": "F0E6D2",
+      "muted": "64615D",
+      "line": "E3D7BF",
+      "secondary": "2D2620"
+    }
+  },
+  "swiss": {
+    "ikb": {
+      "paper": "FAFAF8",
+      "ink": "0A0A0A",
+      "accent": "002FA7",
+      "onAccent": "FFFFFF",
+      "muted": "737373",
+      "line": "D4D4D2",
+      "secondary": "0A0A0A"
+    },
+    "lemon": {
+      "paper": "FAFAF8",
+      "ink": "0A0A0A",
+      "accent": "FFD500",
+      "onAccent": "0A0A0A",
+      "muted": "737373",
+      "line": "D4D4D2",
+      "secondary": "0A0A0A"
+    },
+    "lime": {
+      "paper": "FAFAF8",
+      "ink": "0A0A0A",
+      "accent": "C5E803",
+      "onAccent": "0A0A0A",
+      "muted": "737373",
+      "line": "D4D4D2",
+      "secondary": "0A0A0A"
+    },
+    "orange": {
+      "paper": "FAFAF8",
+      "ink": "0A0A0A",
+      "accent": "FF6B35",
+      "onAccent": "0A0A0A",
+      "muted": "737373",
+      "line": "D4D4D2",
+      "secondary": "0A0A0A"
+    }
+  },
+  "huawei": {
+    "classic-red": {
+      "paper": "F7F8FA",
+      "ink": "22252B",
+      "accent": "C7000B",
+      "onAccent": "FFFFFF",
+      "muted": "6F7680",
+      "line": "DFE3E8",
+      "secondary": "990008"
+    },
+    "executive": {
+      "paper": "F6F6F4",
+      "ink": "1C1F24",
+      "accent": "B00010",
+      "onAccent": "FFFFFF",
+      "muted": "666D76",
+      "line": "DADDE1",
+      "secondary": "730007"
+    },
+    "cloud-tech": {
+      "paper": "F4F7FB",
+      "ink": "20242C",
+      "accent": "D20A2E",
+      "onAccent": "FFFFFF",
+      "muted": "667080",
+      "line": "DCE3EA",
+      "secondary": "9C001F"
+    }
+  }
+}

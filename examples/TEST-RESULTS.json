@@ -1,0 +1,200 @@
+{
+  "ok": true,
+  "decks": 24,
+  "slides": 84,
+  "negative_cases": 14,
+  "tests": [
+    {
+      "file": "all-layouts-magazine.pptx",
+      "slides": 14,
+      "native_charts": 1,
+      "native_tables": 1,
+      "animation_effects": 166,
+      "transitions": 14
+    },
+    {
+      "file": "demo-magazine.pptx",
+      "slides": 8,
+      "native_charts": 1,
+      "native_tables": 1,
+      "animation_effects": 106,
+      "transitions": 8
+    },
+    {
+      "file": "all-layouts-swiss.pptx",
+      "slides": 14,
+      "native_charts": 1,
+      "native_tables": 1,
+      "animation_effects": 166,
+      "transitions": 14
+    },
+    {
+      "file": "demo-swiss.pptx",
+      "slides": 8,
+      "native_charts": 1,
+      "native_tables": 1,
+      "animation_effects": 106,
+      "transitions": 8
+    },
+    {
+      "file": "all-layouts-huawei.pptx",
+      "slides": 14,
+      "native_charts": 1,
+      "native_tables": 1,
+      "animation_effects": 166,
+      "transitions": 14
+    },
+    {
+      "file": "demo-huawei.pptx",
+      "slides": 8,
+      "native_charts": 1,
+      "native_tables": 1,
+      "animation_effects": 106,
+      "transitions": 8
+    },
+    {
+      "file": "theme-magazine-ink.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-magazine-indigo.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-magazine-forest.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-magazine-kraft.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-magazine-dune.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-swiss-ikb.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-swiss-lemon.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-swiss-lime.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-swiss-orange.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-huawei-classic-red.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-huawei-executive.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "theme-huawei-cloud-tech.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 1
+    },
+    {
+      "file": "chart-bar.pptx",
+      "slides": 1,
+      "native_charts": 1,
+      "native_tables": 0,
+      "animation_effects": 4,
+      "transitions": 1
+    },
+    {
+      "file": "chart-column.pptx",
+      "slides": 1,
+      "native_charts": 1,
+      "native_tables": 0,
+      "animation_effects": 4,
+      "transitions": 1
+    },
+    {
+      "file": "chart-line.pptx",
+      "slides": 1,
+      "native_charts": 1,
+      "native_tables": 0,
+      "animation_effects": 4,
+      "transitions": 1
+    },
+    {
+      "file": "chart-doughnut.pptx",
+      "slides": 1,
+      "native_charts": 1,
+      "native_tables": 0,
+      "animation_effects": 4,
+      "transitions": 1
+    },
+    {
+      "file": "animation-appear.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 6,
+      "transitions": 0
+    },
+    {
+      "file": "animation-none.pptx",
+      "slides": 1,
+      "native_charts": 0,
+      "native_tables": 0,
+      "animation_effects": 0,
+      "transitions": 0
+    }
+  ]
+}

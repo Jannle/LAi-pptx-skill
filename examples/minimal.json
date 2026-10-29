@@ -1,0 +1,55 @@
+{
+  "title": "可编辑演示文稿示例",
+  "style": "magazine",
+  "language": "zh-CN",
+  "animation": {
+    "effect": "fade",
+    "transition": "fade",
+    "durationMs": 400
+  },
+  "slides": [
+    {
+      "layout": "cover",
+      "eyebrow": "NATIVE POWERPOINT",
+      "title": "可编辑演示文稿",
+      "subtitle": "文字、图表、表格与流程均为原生对象"
+    },
+    {
+      "layout": "bullets",
+      "title": "主要内容",
+      "items": [
+        "第一条要点",
+        "第二条要点",
+        "第三条要点"
+      ]
+    },
+    {
+      "layout": "chart",
+      "title": "季度示例数据",
+      "subtitle": "虚构测试数据，不代表实际业务表现",
+      "chart": {
+        "type": "column",
+        "categories": [
+          "第一季度",
+          "第二季度",
+          "第三季度",
+          "第四季度"
+        ],
+        "series": [
+          {
+            "name": "示例数据",
+            "values": [
+              24,
+              38,
+              45,
+              61
+            ]
+          }
+        ],
+        "unit": "单位：项",
+        "showValues": true
+      },
+      "notes": "本页仅演示原生图表与内嵌工作簿。数据为虚构。"
+    }
+  ]
+}
